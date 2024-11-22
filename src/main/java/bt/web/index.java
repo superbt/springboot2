@@ -13,4 +13,11 @@ public class index {
         System.out.println("访问了bt 页面哟");
         return "/index.html";
     }
+
+    @GetMapping("/")
+    public String bt()
+    {
+        System.out.println("访问了bt 页面哟");
+        return "/bt.html";
+    }
 }
